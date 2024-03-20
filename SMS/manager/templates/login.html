@@ -1,0 +1,29 @@
+{% comment %} {% load static %} {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  {% load static %}
+  <link href="{% static '/css/style.css' %}" rel="stylesheet" >
+  {% comment %} <link rel="stylesheet"  href="{% static '\manager\static\style.css' %}" > {% endcomment %}
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome Back!</h1>
+    <form action="#">
+      <div class="input-field">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+      </div>
+      <div class="input-field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+      <button type="submit">Login</button>
+      {% comment %} <a href="#">Forgot Password?</a>     FEATURE SCOPE {% endcomment %}
+    </form>
+  </div>
+</body>
+</html>
