@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bkg.jpg');
+  }
+  
+  .container {
+    width: 600px; /* Adjust width as needed */
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add spacing between buttons */
+  }
+  
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px; /* Adjust padding for better button size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    word-break: break-all; /* Wrap long button text onto multiple lines */
+  }
+  
+  .btn:hover {
+    background-color: #45A049; /* Green hover */
+  }
+  

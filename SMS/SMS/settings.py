@@ -100,6 +100,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Authentication backend (use a more secure option in production)
+AUTHENTICATION_BACKENDS = [                                                    # Manually Added by Shivam
+    'django.contrib.auth.backends.ModelBackend',
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/

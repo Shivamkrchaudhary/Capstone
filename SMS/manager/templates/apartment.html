@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apartment Management</title>
+  {% load static %}
+  <link href="{% static '/css/apartment_style.css' %}" rel="stylesheet" >
+</head>
+<body>
+  <div class="container">
+    <h1>Apartment Management</h1>
+    <div class="buttons">
+      <a href="add_owner_details.html">
+        <button class="btn">Add Owner Details</button>
+      </a>
+      <a href="add_new_resident.html">
+        <button class="btn">Add New Resident</button>
+      </a>
+      <a href="add_apartments.html">
+        <button class="btn">Add Apartments</button>
+      </a>
+      <a href="edit_apartment_status.html">
+        <button class="btn">Edit Apartment Status</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
